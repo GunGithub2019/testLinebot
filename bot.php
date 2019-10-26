@@ -1,5 +1,5 @@
 <?php
- require("index.php");
+
  require("pub.php");
  require("line.php");
 
@@ -38,5 +38,5 @@ if (!is_null($events['events'])) {
 $Topic = "NodeMCU1" ;
 $text = "Test";
 getMqttfromlineMsg($Topic,$text);
-echo "OK33";
+echo "OK3";
 ?>
